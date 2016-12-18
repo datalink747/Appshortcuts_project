@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose1"
+        android:enabled="true"
+        android:icon="@drawable/icon_gener"
+        android:shortcutShortLabel="@string/shortcuts_name1"
+        android:shortcutLongLabel="@string/shortcuts_name1_long"
+        android:shortcutDisabledMessage="@string/shortcuts_disabled_message1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.soussidev.android.appshortcuts_project"
+            android:targetClass="com.soussidev.android.appshortcuts_project.MainActivity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <!-- Specify more shortcuts here. -->
+
+    <shortcut
+        android:shortcutId="compose2"
+        android:enabled="true"
+        android:icon="@drawable/icon_gener"
+        android:shortcutShortLabel="@string/shortcuts_name2"
+        android:shortcutLongLabel="@string/shortcuts_name2_long"
+        android:shortcutDisabledMessage="@string/shortcuts_disabled_message2">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.soussidev.android.appshortcuts_project"
+            android:targetClass="com.soussidev.android.appshortcuts_project.Main2Activity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="compose3"
+        android:enabled="true"
+        android:icon="@drawable/icon_gener"
+        android:shortcutShortLabel="@string/shortcuts_name3"
+        android:shortcutLongLabel="@string/shortcuts_name3_long"
+        android:shortcutDisabledMessage="@string/shortcuts_disabled_message3">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.soussidev.android.appshortcuts_project"
+            android:targetClass="com.soussidev.android.appshortcuts_project.Main3Activity" />
+        <!-- If your shortcut is associated with multiple intents, include them
+             here. The last intent in the list determines what the user sees when
+             they launch this shortcut. -->
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>
+
+
